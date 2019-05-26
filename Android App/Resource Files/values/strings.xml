@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">InstagramCloneApp</string>
+
+    <!-- Fragments -->
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sing_out_fragment">Sign out</string>
+    <string name="profile_fragment">Profile Fragment</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_password">ConfirmPasswordDialog</string>
+
+    <!-- Firebase Messages -->
+    <string name="authentication_success">Login Authentication Successful</string>
+    <string name="authentication_fail">Login Authentication Failed</string>
+    <string name="register_authentication_success">Sign up Authentication Successful</string>
+    <string name="register_authentication_fail">Sign up Authentication Failed</string>
+
+    <!-- Firebase Database Fields -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_displayName">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_phoneNumber">phone_number</string>
+
+
+    <!-- Intent Extras-->
+    <string name="calling_activity">Calling Activity</string>
+    <string name="profile_activity">Profile Activity</string>
+
+
+    <!-- Strings -->
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="btn_open_camera">OPEN CAMERA</string>
+    <string name="string_Next">Next</string>
+
+
+</resources>

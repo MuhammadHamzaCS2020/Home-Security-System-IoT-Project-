@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="55dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER A NEW ACCOUNT"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/grey_bottom_border"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Full Name"
+                android:id="@+id/RegisterInputFullName"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:id="@+id/RegisterInputEmail"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:id="@+id/RegisterInputPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:text="Sign up"
+            android:id="@+id/btn_Register"
+            android:background="@drawable/white_rounded_button"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/RegisterProgessBar"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="Please Wait....."
+        android:id="@+id/RegisterProgressText"
+        android:textSize="20sp"
+        android:layout_below="@+id/RegisterProgessBar"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
+
