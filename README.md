@@ -1,2 +1,2 @@
 # IoT-Project
-Home Security System based on IoT
+Home Security System (IoT System) with Web and Mobile App
